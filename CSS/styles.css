@@ -487,17 +487,18 @@ button{
     margin-top: 20px;
     align-self: right;
     align-items: right ;
+
 }
 
 .social-links a {
     display: inline-block;
     margin: 0 10px;
-    color: #37124D; 
+    color: white;
     font-size: 24px; 
 }
 
 .social-links a:hover {
-    color: #50B498; 
+    color:  #37124D;  
 }
 
 
