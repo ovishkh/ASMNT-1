@@ -324,6 +324,7 @@ button{
     margin-top: 35px;
 }
 
+
 .targets {
     padding: 25px;
     border-radius: 20px;
@@ -333,8 +334,9 @@ button{
 }
 
 .target-description {
-    font-size: 14px;
-    opacity: 0.7;
+    font-size: 17px;
+    opacity: 0.8;
+    color : #37124D;
 }
 
 .skills {
@@ -416,8 +418,7 @@ button{
 .overlay {
     position: absolute;
     top: 0;
-    left
-    : 0;
+    left: 0;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
@@ -432,6 +433,13 @@ button{
 
 .portfolio-item:hover .overlay {
     opacity: 1;
+}
+.sprt{
+
+   background-color:#9CDBA6 ; 
+   height: fit-content;
+   width: auto;
+
 }
 
 
@@ -476,8 +484,8 @@ button{
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
-    background-color: #50B498;
-    color: white;
+    background-color: #9CDBA6 ;
+    color: #37124D;
     cursor: pointer;
 }
 .box{
@@ -502,17 +510,17 @@ button{
 .social-links a {
     display: inline-block;
     margin: 0 10px;
-    color: white;
+    color: #37124D;
     font-size: 24px; 
 }
 
 .social-links a:hover {
-    color:  #37124D;  
+    color:  white;  
 }
 
 
 footer {
-    background-color: #50B498;
+    background-color: #9CDBA6;
     color: white;
     text-align: center;
     padding: 20px 0;
