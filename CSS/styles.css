@@ -73,7 +73,6 @@ header nav ul a {
     color: #37124D;
 }
 
-
 header nav ul button {
     border: none;
     padding: 10px 20px;
@@ -170,6 +169,7 @@ button{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 20px;
 
 
 }
@@ -287,6 +287,7 @@ button{
     flex-direction: column;
     justify-content:center;
     align-items: center;
+    padding-bottom: 20px;
 
 }
 
@@ -298,77 +299,72 @@ button{
     border-radius: 20px;
 }
 
-
-
-
-
-
-
-.target{
-    width: 852px;
-    height: 67px;
-    margin: 0 auto;
-    margin-top: 20px;
- }
- .target-section-title{
-    font-size: 23px;
-    font-weight: 700;
+.target {
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
     text-align: center;
-    margin-bottom: 10px;
- }
- .target-section-description{
-    font-size: 10px;
-    opacity: 0.7;
-    font-weight: 400;
-    text-align: center;
- }
- .target-container{
+}
+
+.target-container {
     display: flex;
+    flex-wrap: wrap;
     gap: 25px;
-    align-items: center;
-    margin-top: 35px;
     justify-content: center;
- }
- .targets{
+    margin-top: 35px;
+}
+
+.targets {
     padding: 25px;
     border-radius: 20px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
- }
- .targets-description{
-    font-size: 10px;
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.target-description {
+    font-size: 14px;
     opacity: 0.7;
- }
-
- 
- 
-
+}
 
 .skills {
     background-color: #DEF9C4;
     color: #37124D;
     text-align: center;
-    padding: 80px 0;
+    padding: 80px 20px;
+}
+
+.skills h2 {
+    margin-bottom: 20px;
+}
+
+.skills h4 {
+    margin-bottom: 40px;
 }
 
 .skills-content {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
     text-align: left;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .skills-content > div {
     flex: 1;
+    min-width: 300px;
     margin: 20px;
 }
 
 .skill-bar {
-    margin: 10px 0;
+    margin: 20px 0;
 }
 
 .skill-bar p {
-    margin: 0;
+    margin: 0 0 5px 0;
 }
 
 .progress-bar {
@@ -376,7 +372,6 @@ button{
     border-radius: 5px;
     overflow: hidden;
     height: 20px;
-    margin-top: 5px;
 }
 
 .progress {
@@ -431,16 +426,20 @@ button{
 }
 
 
-.support{
-    max-width: 1440px;
-    height: 300px;
-    margin-top: 40px;
+.support {
+    width: 100%;
+    max-width: 1200px;
+    margin: 40px auto;
     padding: 40px;
     border-radius: 20px;
     background-image: url('../IMG/handshake.jpg');
     background-size: cover;
     background-position: center;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 .support-title{
     font-size: 29px;
@@ -450,7 +449,7 @@ button{
     color: white;
 }
 .support-dex{
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 400;
     opacity: 0.8;
     text-align: center;
@@ -478,12 +477,11 @@ button{
     gap: 20px;
     margin: 15px;
 }
-.left-part{
+.last{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
-
 
 .social-links {
     margin-top: 20px;
@@ -503,7 +501,7 @@ button{
 }
 
 
-.footer {
+footer {
     background-color: #50B498;
     color: white;
     text-align: center;
